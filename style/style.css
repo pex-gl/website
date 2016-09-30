@@ -1,0 +1,116 @@
+@font-face {
+    font-family: "gt-pressura-light";
+    src: url(fonts/gt-pressura-light-web-webfont.woff);
+}
+
+@font-face {
+    font-family: "gt-pressura-regular";
+    src: url(fonts/gt-pressura-regular-web-webfont.woff);
+}
+
+@font-face {
+    font-family: "gt-pressura-bold";
+    src: url(fonts/gt-pressura-bold-web-webfont.woff);
+}
+
+html, body {
+
+}
+
+body, body * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #2E2525;
+    color: #FFF;
+    font-family: "gt-pressura-light", arial, sans-serif;
+}
+
+#container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    padding: 1em 0 1em 0;
+}
+
+header ul li {
+    font-size: 120%;
+    float: right;
+    width: auto;
+    margin-left: 2em;
+}
+
+header ul li a {
+    color: #3AA68E;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    color: #FFF;
+}
+
+header ul li.logo {
+    flex: 1;
+    margin: 0;
+}
+
+header ul li.logo img {
+    height: 1.5em;
+}
+
+#intro {
+    font-size: 200%;
+    line-height: 140%;
+    font-family: "gt-pressura-light", arial, sans-serif;
+    padding: 1em 0 1em 0;
+}
+
+#intro span {
+    font-family: "gt-pressura-regular", arial, sans-serif;
+}
+
+#intro p:nth-child(2) {
+    color: #3AA68E;
+}
+
+#intro a {
+    color: #3AA68E;
+}
+
+#intro a:hover {
+    color: #FFF;
+}
+
+#content {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+#content ul {
+    list-style-type: none;
+}
+
+#content ul li {
+    float: left;
+    xmargin-right: 1em;
+    xmargin-bottom: 1em;
+}
+
+#content ul li .thumb {
+    width: 154px;
+    height: 224px;
+    width: 204px;
+    height: 250px;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+#content ul li .thumb:hover {
+    opacity: 0.5;
+}
